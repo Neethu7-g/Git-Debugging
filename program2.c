@@ -1,20 +1,22 @@
 #include <stdio.h>
-int avg(int a, int b)
-{int avg;
-avg=a+b/2
+float avg(int a[], int b[])
+{
+float avg;
+avg=a+b/2;
 return avg;
 }
-int avg(int c, int d, int e)
-{int avg;
+int avg(int c[], int d[], int e[])
+{
+float avg;
 avg=c+d+e/2
 return avg;
 }
 int main()
 {
-    int ans;
+    float ans;
     
     ans = avg(4,5);
-    printf("Average of the numbers is: %d",answer);
+    printf("Average of the numbers is: %f",answer);
 
     
 }
